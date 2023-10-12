@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="menu_side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Last Listening</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="./image/1.jpg" alt="">
+                    <h5>herriye <br>
+                        <div class="subtitle">Arjit singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li>
+                    <span>02</span>
+                    <img src="./image/2.jpg" alt="">
+                    <h5>Ram Siya Ram<br>
+                        <div class="subtitle">Arjit singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li>
+                    <span>03</span>
+                    <img src="./image/3.jpg" alt="">
+                    <h5>Dhokha <br>
+                        <div class="subtitle">Arjit singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li>
+                    <span>04</span>
+                    <img src="./image/17.jpg" alt="">
+                    <h5>Bairiya <br>
+                        <div class="subtitle">Arjit singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li>
+                    <span>05</span>
+                    <img src="./image/5.jpg" alt="">
+                    <h5>Chaleya <br>
+                        <div class="subtitle">Arjit singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li>
+                    <span>06</span>
+                    <img src="./image/6.jpg" alt="">
+                    <h5>Cheques<br>
+                        <div class="subtitle">Arjit singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                </li>
+                <li>
+                    <span>07</span>
+                    <img src="./image/7.jpg" alt="">
+                    <h5>Gone Girl <br>
+                        <div class="subtitle">Arjit singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                </li>
+                <li>
+                    <span>08</span>
+                    <img src="./image/8.jpg" alt="">
+                    <h5>Hanuman Chalisa<br>
+                        <div class="subtitle">Arjit singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                </li>
+                <li>
+                    <span>09</span>
+                    <img src="./image/9.jpg" alt="">
+                    <h5>Har Har Shambhu <br>
+                        <div class="subtitle">Arjit singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                </li>
+                <li>
+                    <span>10</span>
+                    <img src="./image/10.jpg" alt="">
+                    <h5>Hum to Deewana Yasser Desai<br>
+                        <div class="subtitle">Arjit singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                </li>
+            </div>
+        </div>
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="search Music....">
+                </div>
+                <div class="user">
+                    <img src="" alt="" srcset="">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Arjit Singh</h1>
+                <p>Heeriye Herriye Herriye............ <br></p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Song</h4>
+                    <div class="btn_s">
+                        
+                        <i class="bi bi-arrow-left-square-fill" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-square-fill" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="./image/herriye_song_image.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>herriye <br>
+                            <div class="subtitle">Arjit singh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="./image/Ram-Siya-Ram_image.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                        </div>
+                        <h5>Ram Siya Ram<br>
+                            <div class="subtitle">Arjit singh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="./image/Dhokha-image.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>Dhokha <br>
+                            <div class="subtitle">Arjit singh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="./image/Bariya_images.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                        </div>
+                        <h5>Bairiya <br>
+                            <div class="subtitle">Arjit singh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="./image/Chaleya_image.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                        </div>
+                        <h5>Chaleya <br>
+                            <div class="subtitle">Arjit singh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="./image/cheques_image.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+                        </div>
+                        <h5>Cheques<br>
+                            <div class="subtitle">Arjit singh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="./image/Gone_Girl_Image.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="17"></i>
+                        </div>
+                        <h5>Gone Girl <br>
+                            <div class="subtitle">Arjit singh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="./image/Hanuman_Chaliasa.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="18"></i>
+                        </div>
+                        <h5>Hanuman Chalisa<br>
+                            <div class="subtitle">Arjit singh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="./image/Hum-Toh-Deewane-Song.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="19"></i>
+                        </div>
+                        <h5>Hum to Deewana Yasser Desai<br>
+                            <div class="subtitle">Arjit singh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="20"></i>
+                        </div>
+                        <h5><br>
+                            <div class="subtitle">Arjit singh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="21"></i>
+                        </div>
+                        <h5><br>
+                            <div class="subtitle">Arjit singh</div>
+                        </h5>
+                    </li>             
+                </div>
+            </div>
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        
+                        <i class="bi bi-arrow-left-square-fill" id="pop_art_left"></i>
+                        <i class="bi bi-arrow-right-square-fill" id="pop_art_right"></i>
+                    </div>
+                </div>
+              <div class="item Artists_bx">
+                <li>
+                    <img src="https://w0.peakpx.com/wallpaper/97/713/HD-wallpaper-arjith-singh-bollywood-singer.jpg" alt="" srcset="">
+                </li>
+                <li>
+                    <img src="https://i.pinimg.com/originals/74/62/72/7462729944fc01b67ab42359a8fb4123.jpg" alt="" srcset="">
+                </li>
+                <li>
+                    <img src="https://w0.peakpx.com/wallpaper/97/713/HD-wallpaper-arjith-singh-bollywood-singer.jpg" alt="" srcset="">
+                </li>
+                <li>
+                    <img src="https://w0.peakpx.com/wallpaper/97/713/HD-wallpaper-arjith-singh-bollywood-singer.jpg" alt="" srcset="">
+                </li>
+
+                <li>
+                    <img src="https://w0.peakpx.com/wallpaper/97/713/HD-wallpaper-arjith-singh-bollywood-singer.jpg" alt="" srcset="">
+                </li>
+                <li>
+                    <img src="https://w0.peakpx.com/wallpaper/97/713/HD-wallpaper-arjith-singh-bollywood-singer.jpg" alt="" srcset="">
+                </li>
+                <li>
+                    <img src="https://w0.peakpx.com/wallpaper/97/713/HD-wallpaper-arjith-singh-bollywood-singer.jpg" alt="" srcset="">
+                </li>
+                <li>
+                    <img src="https://w0.peakpx.com/wallpaper/97/713/HD-wallpaper-arjith-singh-bollywood-singer.jpg" alt="" srcset="">
+                </li>
+                <li>
+                    <img src="https://w0.peakpx.com/wallpaper/97/713/HD-wallpaper-arjith-singh-bollywood-singer.jpg" alt="" srcset="">
+                </li>
+                <li>
+                    <img src="https://w0.peakpx.com/wallpaper/97/713/HD-wallpaper-arjith-singh-bollywood-singer.jpg" alt="" srcset="">
+                </li>
+                <li>
+                    <img src="https://w0.peakpx.com/wallpaper/97/713/HD-wallpaper-arjith-singh-bollywood-singer.jpg" alt="" srcset="">
+                </li>
+                <li>
+                    <img src="https://w0.peakpx.com/wallpaper/97/713/HD-wallpaper-arjith-singh-bollywood-singer.jpg" alt="" srcset="">
+                </li>
+
+              </div>
+            </div>
+        </div>
+
+        <div class="master_play">
+            <div class="wave" id="waves">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="./image/17.jpg" alt="" id="poster_master_play">
+            <h5 id="title">
+                Bairiya 
+                <div class="subtitle">Arjit singh </div>
+            </h5>
+            <div class="icons">
+                <i class="bi shuffle bi-music-note-beamed"></i>
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+                <i class="bi bi-cloud-arrow-down-fill" id="download_music"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:30</span>
+            <div class="vol">
+                <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+                <input type="range" id="vol" min="0" max="100">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol-dot"></div>
+            </div>
+        </div>
+
+    </header>
+    <script src="index.js"></script>
+</body>
+
+</html>
